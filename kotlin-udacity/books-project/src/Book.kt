@@ -1,6 +1,7 @@
 const val MAX_NUMBER_BOOKS =20
 
-class Book(var title:String, var author:String, var year:Int){
+
+open class Book(var title:String, var author:String, var year:Int, var pages:Int){
     companion object{
         const val BASE_URL ="http://books.com/"
     }
@@ -18,4 +19,12 @@ class Book(var title:String, var author:String, var year:Int){
         var url = BASE_URL+title.replace(" ","-").toLowerCase()+".html"
         return url
     }
+}
+
+fun Book.getWeight():Double {return pages*1.5}
+
+fun Book.tornPages(torn: Int) = if (pages >= torn){
+    pages -= torn
+} else {
+    pages = 0
 }

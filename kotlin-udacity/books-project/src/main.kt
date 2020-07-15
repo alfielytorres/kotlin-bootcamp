@@ -9,9 +9,13 @@ fun main() {
 //    println(library)
 //
 //
-    var book = Book("Love of My Life","Alfie",2020)
-    println(book.printUrl())
+    val puppy = Puppy()
+    val book = Book("Oliver Twist", "Charles Dickens", 1837, 540)
 
-    println(book.canBorrow(20))
+    while (book.pages > 0) {
+        puppy.playWithBook(book)
+        println("${book.pages} left in ${book.title}")
+    }
+    println("Sad puppy, no more pages in ${book.title}. ")
 }
 
