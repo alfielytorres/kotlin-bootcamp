@@ -12,17 +12,25 @@ class Brick: BaseBuildingMaterial() {
     override val numberNeeded=8
 }
 
-class Building<T: BaseBuildingMaterial>(val baseMaterials:T){
+class Building<out T: BaseBuildingMaterial>(val buildingMaterials: T){
 
     val baseMaterialsNeeded=100
-    var actualMaterialsNeeded = baseMaterials.numberNeeded*baseMaterialsNeeded
+    var actualMaterialsNeeded = buildingMaterials.numberNeeded*baseMaterialsNeeded
 
     fun build(){
-            println(" ${actualMaterialsNeeded} ${baseMaterials::class.simpleName} required")
+            println(" ${actualMaterialsNeeded} ${buildingMaterials::class.simpleName} required")
     }
+}
+
+annotation class author
+
+@author class classAuthor{
+    var name="Alfie Torres"
 }
 
 fun main(){
     var Eureka = Building(Brick())
     Eureka.build()
+    println(classAuthor.)
+
 }
