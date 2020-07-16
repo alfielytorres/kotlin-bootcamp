@@ -11,4 +11,4 @@ Covers basic function calls
 
 Covers data binding 
 
-<img src="https://i.imgur.com/5e4LElo.gif" width="300">
+<img src="https://media2.giphy.com/media/iFhGhoHD2C5T7KWTTb/giphy.gif" width="300">
