@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">constraint-layout</string>
+    <string name="box_3">box three</string>
+    <string name="box_4">box four</string>
+    <string name="box_5">box five</string>
+    <string name="box_2">box two</string>
+    <string name="box_1">box one</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="cyan">Cyan</string>
+</resources>
