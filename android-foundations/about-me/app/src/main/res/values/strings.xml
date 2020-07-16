@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="yellow_star">yellow star</string>
+    <string name="bio">
+        \n A high distinction student completing a double degree in Commerce and IT at Monash University,
+        \n
+         \nwho has been actively engaging in international clubs, honours societies and youth work.
+        \n
+         \nMy extra-curricular and volunteering experiences, together with my education have played an integral role in developing my growth mindset, time management and a genuine care for people.
+       \n
+        \n Additionally, I am passionate about business and IT\'s disruptive role in innovating traditional business practices. My experiences going to San Francisco played an important role in my presentation, networking and IT skills as a Marketing Officer and Information Technology Officer at Unihack and Computing Commerce Association.
+        \n
+         \nIn addition to my drive for innovation, I am passionate about being a leader in the business industry. I have had the honour of being part of Beta Alpha Psi\'s Accounting Leadership Program that allows me to continually grow in my skills as a leader through workshops and seminars focused on time management, building effective teams and professional development.
+         \n
+        \nMoreover, my Accounts Management experience in the McCann WorldGroup has helped build a strong soft skill set, centred around communication.
+         \n
+        \nI have also had the honour of mentoring fellow peers from a diverse background in Monash University by continually helping them transition in their first year of university.
+    </string>
+    <string name="alfie_torres">Alfie Torres</string>
+    <string name="done">Done</string>
+</resources>
