@@ -11,8 +11,10 @@ import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import com.alfietorres.aboutme.databinding.ActivityMainBinding
 
+
+
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding:ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
     private val myName: MyName = MyName("Aleks Haecky")
 
     data class MyName(var name: String = "", var nickname: String = "")
