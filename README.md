@@ -2,7 +2,7 @@
 A compilation of Kotlin Syntax learning, as well, as projects born out out Android codelabs
 
 ### Random Number Generator
-- basic function calls
+- Function calls
 
 <img src="https://i.imgur.com/5Mtuv8N.gif" width="300">
 
@@ -22,4 +22,4 @@ A compilation of Kotlin Syntax learning, as well, as projects born out out Andro
 - Navigation Graphs
 - animations
 
-<img src="https://i.imgur.com/dpEjPud.mp4" width="300">
+<img src="https://i.imgur.com/dpEjPud.gif" width="300">
